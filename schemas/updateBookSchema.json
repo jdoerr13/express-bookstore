@@ -1,0 +1,46 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/updateBookSchema.json",
+    "title": "Update Book Schema",
+    "type": "object",
+    "default": {},
+    "properties": {
+      "amazon_url": {
+        "title": "The Amazon URL Schema",
+        "type": "string",
+        "default": "",
+        "examples": ["http://a.co/eobPtX2"]
+      },
+      "language": {
+        "title": "The Language Schema",
+        "type": "string",
+        "default": "",
+        "examples": ["english"]
+      },
+      "pages": {
+        "title": "The Pages Schema",
+        "type": "number",
+        "default": 0,
+        "examples": [264]
+      },
+      "publisher": {
+        "title": "The Publisher Schema",
+        "type": "string",
+        "default": "",
+        "examples": ["Princeton University Press"]
+      },
+      "title": {
+        "title": "The Title Schema",
+        "type": "string",
+        "default": "",
+        "examples": ["Power-Up: Unlocking the Hidden Mathematics in Video Games"]
+      },
+      "year": {
+        "title": "The Year Schema",
+        "type": "number",
+        "default": 0,
+        "examples": [2017]
+      }
+    }
+  }
+  
